@@ -103,6 +103,12 @@ body {
   font-family: 'Press Start 2P', cursive;
   color: #D9D7D7; }
 
+.HeaderMenuPoints {
+  list-style-type: none;
+  /* Убираем маркеры */
+  text-decoration: none;
+  color: #D9D7D7; }
+
 .welcomeMainText {
   font-size: 14px;
   font-family: 'Press Start 2P', cursive;
@@ -140,35 +146,52 @@ body {
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
-
-  .welcomeMainText {
-    font-size: 12px;
-    text-align: center; } }
+            align-items: center; } }
 li:hover {
   color: #D8A013;
   cursor: url("../../img/LinkSelect.cur"), pointer; }
 
-#turtleWelcomeGifBlock {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 200px; }
+#bookMainGif {
+  width: 300px; }
 
-#turtleWelcomeGif {
-  max-width: 100%; }
+#welcomeMainTextTheory {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: 'Press Start 2P', cursive;
+  color: #D9D7D7;
+  text-align: center;
+  line-height: 20px; }
 
-h1 {
-  font-family: 'Press Start 2P', cursive; }
+@media (max-width: 1200px) {
+  #mainBlock {
+    width: 90%; }
+
+  #HeaderMenuButtons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 300px;
+    margin-top: 20px;
+    font-size: 17px; }
+
+  #mainBlockHeaderMenu {
+    width: 100%;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
 
 /*# sourceMappingURL=style.css.map */
