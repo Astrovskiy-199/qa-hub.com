@@ -18,32 +18,24 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-   
-
-  a:visited {
-    color: #D9D7D7;
-    
-    
+  a {
+    text-decoration: none;   
   }
 
-  
-.HeaderMenuPoints {
+  a:visited {
+      text-decoration: none;
+  }
+
+
+  li {
     list-style-type: none; /* Убираем маркеры */
-    
-    
    }
 
    html {
     overflow-x: hidden;
-      cursor: url('../img/cursor.cur'), pointer;
+      cursor: url('../../img/cursor.cur'), pointer;
 
-  }
-
- 
-  
-  
-  
-
+  } 
 
 body {
     width: 100%;
@@ -130,13 +122,12 @@ text-align: center;
 
 li:hover {
     color: #D8A013;
-    cursor: url('../img/LinkSelect.cur'), pointer;
+    cursor: url('../../img/LinkSelect.cur'), pointer;
 }
 
 
 
 #turtleWelcomeGifBlock {
-    margin-top: 35px;
 display: flex;
 flex-direction: column;
 justify-content: center;
