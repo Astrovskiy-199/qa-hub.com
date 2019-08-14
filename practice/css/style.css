@@ -197,8 +197,8 @@ li:hover {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 #mainAnimationBlock {
-  width: 50%;
-  min-height: 350px;
+  height: 300px;
+  width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,8 +211,7 @@ li:hover {
           justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  border: 2px solid red; }
+          align-items: center; }
 
 #mainAnimationBlockTopGears {
   width: 100%;
@@ -233,13 +232,26 @@ li:hover {
 
 #mainAnimationBlockTopGearsLeft {
   width: 50%;
-  border: 2px solid green; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 #mainAnimationBlockTopGearsRight {
-  width: 50%;
-  border: 2px solid orange;
+  width: 150px;
+  height: 150px;
   -webkit-animation: gears-rotate;
           animation: gears-rotate;
+  border-radius: 50%;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-direction: normal;
@@ -247,7 +259,24 @@ li:hover {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear; }
+          animation-timing-function: linear;
+  background-image: url("../img/gear3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 #mainAnimationBlockBottomGears {
   width: 100%;
@@ -264,12 +293,13 @@ li:hover {
           align-items: cfle;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  border: 2px solid purple; }
+          justify-content: space-between; }
 
 #mainAnimationBlockBottomGearsLeft {
   -webkit-animation: gears-rotate;
           animation: gears-rotate;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-direction: normal;
@@ -279,11 +309,31 @@ li:hover {
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   width: 50%;
-  border: 2px solid blue; }
+  border-radius: 50%;
+  background-image: url("../img/gear2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 #mainAnimationBlockBottomGearsRight {
+  border-radius: 50px 50px;
   -webkit-animation: gears-rotate;
           animation: gears-rotate;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-direction: reverse;
@@ -292,7 +342,32 @@ li:hover {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  width: 50%;
-  border: 2px solid yellow; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 11%;
+  border-radius: 50%;
+  background-image: url("../img/gear1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 170px;
+  height: 170px;
+  margin-left: -16px;
+  margin-top: -20px; }
+
+#mainAnimationBlockTopGearsLeftComputerGif {
+  position: absolute;
+  width: 145px; }
 
 /*# sourceMappingURL=style.css.map */
