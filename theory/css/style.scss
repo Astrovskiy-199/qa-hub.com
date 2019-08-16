@@ -167,3 +167,41 @@ li:hover {
         align-items: center;
     }
 }
+
+
+
+#theoryMainCatalogBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.theoryMainCatalogBlockNumberOfLection {
+    margin-top: 65px;
+   font-size: 14px;
+    font-family: 'Press Start 2P', cursive; 
+    color: #fcf4c7
+}
+
+.theoryMainCatalogLinks {
+    margin-top: 15px;
+   font-size: 14px;
+    font-family: 'Press Start 2P', cursive; 
+    color: #fcf4c7
+}
+
+.theoryMainCatalogLinksLight {
+   margin-top: 15px;
+   font-size: 14px;
+    font-family: 'Press Start 2P', cursive; 
+    color: #fcf4c7 
+}
+
+.theoryMainCatalogLinks:hover {
+    color: #F81010;
+}
+
+.theoryMainCatalogLinksLight:hover {
+    color: #F81010;
+}
